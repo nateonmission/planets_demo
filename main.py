@@ -129,16 +129,15 @@ def main():
             planet.update_position(planets)
             planet.draw(WIN)
             
-            
         pygame.display.update()
 
     pygame.quit()
     return 0
 
 if __name__ == "__main__":
-    main()
-    # EXIT_CODE = main()
-    # if EXIT_CODE == 0:
-    #     print('Program exited successfully')
-    # else:
-    #     print(f'ERROR EXIT CODE: {EXIT_CODE}')
+    # main()
+    EXIT_CODE = main()
+    if EXIT_CODE == 0:
+        print('Program exited successfully')
+    else:
+        print(f'ERROR EXIT CODE: {EXIT_CODE}')
