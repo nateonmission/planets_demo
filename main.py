@@ -135,7 +135,6 @@ def main():
     return 0
 
 if __name__ == "__main__":
-    # main()
     EXIT_CODE = main()
     if EXIT_CODE == 0:
         print('Program exited successfully')
